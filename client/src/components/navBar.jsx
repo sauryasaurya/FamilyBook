@@ -21,18 +21,19 @@ function NavBar(props) {
       <div id="navbarSupportedContent" className="collapse navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <NavLink to="/home" className="nav-link">
+            <NavLink exact to="/" className="nav-link">
               Home
             </NavLink>
           </li>
+
           <li className="nav-item">
-            <NavLink to="/profile" className="nav-link">
-              Profile
+            <NavLink to="/login" className="nav-link">
+              Login
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/account" className="nav-link">
-              Account
+            <NavLink to="/register" className="nav-link">
+              Register
             </NavLink>
           </li>
         </ul>

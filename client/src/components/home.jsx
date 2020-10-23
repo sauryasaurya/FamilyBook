@@ -3,9 +3,9 @@ import NavBar from "./navBar";
 
 function Home(props) {
   return (
-    <Fragment>
-      <NavBar />
-    </Fragment>
+    <>
+      <h1>Homepage</h1>
+    </>
   );
 }
 
